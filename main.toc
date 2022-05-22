@@ -1,0 +1,37 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}What is a permission system?}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Why are permission systems necessary?}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}What is the purpose of this thesis?}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Thesis structure}{2}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Permission implementations in other applications}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Google Drive}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Unix systems}{4}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Permission management}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Attribute-based access control}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Role-based access control}{9}{section.3.2}%
+\contentsline {chapter}{\numberline {4}The application}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Overview of the requirements}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Backend --- used technologies}{11}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}.NET and C\#}{11}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}LINQ}{12}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}JSON Web Token}{12}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Frontend --- used technologies}{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}React.js}{13}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Typescript}{13}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Material UI}{13}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Software Requirements}{14}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Setup}{14}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Backend}{15}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Frontend}{16}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Implementation details}{18}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Application usage}{19}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Users}{19}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Explorer}{19}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Permission management}{20}{subsection.4.7.3}%
+\contentsline {subsubsection}{Configuring Path Points}{22}{section*.6}%
+\contentsline {subsubsection}{Configuring Roles}{23}{section*.7}%
+\contentsline {subsubsection}{Configuring Permissions}{25}{section*.8}%
+\contentsline {subsubsection}{Configuring Users}{26}{section*.9}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{29}{chapter.5}%
+\contentsline {chapter}{Bibliography}{30}{chapter*.12}%

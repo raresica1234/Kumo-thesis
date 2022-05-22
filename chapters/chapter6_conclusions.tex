@@ -1,0 +1,13 @@
+\chapter{Conclusions and Future Work}
+\label{conclusions}
+
+\section*{Conclusion}
+The complexity that was unachievable with Google Drive or Unix systems mention in Chapter 2 is completely achievable by implementing a Role-based attribute control system. Of course, with the increased complexity problems also arise. The "Role explosion" problem mentioned in Chapter 3 remains an issue because in order to achieve proper granularity, a lot of roles will be needed.
+
+
+\section*{Future work}
+With the application being a proof of concept, a lot of new features could be added to it. The explorer could be easily expanded by adding multiple views, more actions, and by overall offering more control over the navigation, files, and folders. 
+
+Due to the fact that the backend was written in C\#, expanding the permission object is fairly easy as only a database migration is needed which is easily achievable with just a few commands.
+
+Currently, there is only one role that can modify permissions, but allowing users to modify permissions in a hierarchy would also be possible. For example if a user has access to a specific directory, they can further modify the permissions of the subdirectories of that directory. But this of course comes with new challenges as the new system would become fairly cluttered and even harder to manage and to implement. 

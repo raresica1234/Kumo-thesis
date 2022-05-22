@@ -1,0 +1,72 @@
+%\documentclass[12pt]{scrreprt}
+\documentclass[12pt]{report} 
+
+% language may be romanian or english (default is english)
+% type may be bachelor or master (default is bachelor)
+\usepackage[language=english, type=bachelor]{style}
+
+%\geometry{a4paper,top=2.5cm,left=3cm,right=2.5cm,bottom=2.5cm}
+%in style
+%controlling the appearance of your headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0.2pt}
+
+\begin{document}
+
+\specialization{COMPUTER-SCIENCE, ENGLISH}	
+\title{Web Based Collaborative Content Viewing}					   
+\author{Ciorbă Rareş-Nicolaie}											
+\supervisor{Assoc. Prof. Rareș Florin Boian, PhD}				
+				
+\maketitle
+
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+\pagenumbering{roman} 
+
+\cleardoublepage
+ABSTRACT
+
+This thesis explores the problem that other web-based collaborative content viewing applications have: the simplicity of their permission system. In order to do this, the problem is thoroughly explained with real life examples in Chapter 2.
+
+However the reason why most other applications have the problem of having a permission system that is too simple is because implementing an exhaustive permission system is a massive task and requires a lot of infrastructure and work. In order to do this properly, in Chapter 3, the thesis goes over different kind of access control mechanisms and tries to choose the best one to implement.
+
+% Due to the fact that the thesis explores the topic of permission systems, it would be futile if the application is vulnerable from a security stand point, hence the application is split into front end and back end, and a secure connection is needed between those two. In Chapter 4, a thorough explanation of the technologies used to build the application is present.
+
+% In Chapter 5, the thesis explains how the application implemented the actual access control mechanisms. In order to have a proper example of the control mechanism and permission system, the capability of having different users is needed alongside the actual control mechanism implementation, which chapter 5 glosses over. Finally, the thesis goes over how the mechanisms have been implemented and how a user would use the application to grant or remove access for users on the file structure they have.
+
+Chapter 4 explores the application from beginning to end. An overview of the requirements is present as well as motivation behind picking all of the technologies that have been picked. After that the software requirements are explained as well as how the project is setup. Lastly, the implementation details and the usage of the application is explained.
+
+Finally, the thesis ends with the Chapter 5, the conclusion and future work chapter, in which what has been learned from the thesis is explained as well as how the application could be further expanded.
+\vspace{0.5cm}	
+\hrule
+\vspace{0.5cm}	
+%\cleardoublepage
+
+
+\tableofcontents
+
+
+\newpage
+\pagenumbering{arabic}
+
+\input{chapters/chapter1_introduction}
+%\addcontentsline{toc}{chapter}{Introduction}
+
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+\input{chapters/chapter4}
+\input{chapters/chapter5}
+
+\input{chapters/chapter6_conclusions}
+%\addcontentsline{toc}{chapter}{Conclusions}
+
+\bibliography{references}
+\end{document}

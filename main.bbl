@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{googleDrivePermission:1}
+{Google Drive Support}, ``{Set Drive users' sharing permissions}.''
+  \url{https://support.google.com/a/answer/60781?hl=en}.
+\newblock Online; accessed 27 April 2022.
+
+\bibitem{keithABAC}
+{Keith Casey}, ``{What Is Attribute-Based Access Control (ABAC)?}.''
+  \url{https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/}.
+\newblock Online, Accessed: 10 March 2022.
+
+\bibitem{coyneABAC}
+{Ed Coyne, Timothy R. Weil}, ``{ABAC and RBAC: Scalable, Flexible, and
+  Auditable Access Management},'' 3 2013.
+
+\bibitem{efCore}
+{Microsoft}, ``{Entity Framework Core}.''
+  \url{https://docs.microsoft.com/en-us/ef/core/}.
+\newblock Online; accessed 22 May 2022.
+
+\bibitem{reactJs}
+{Meta Platforms}, ``{React}.'' \url{https://reactjs.org/}.
+\newblock Online; accessed 22 May 2022.
+
+\bibitem{dotnetSupportedOs}
+{Microsoft}, ``{Install .NET on Windows, Linux, and macOS}.''
+  \url{https://docs.microsoft.com/en-us/dotnet/core/install/}.
+\newblock Online; accessed 21 May 2022.
+
+\bibitem{nodejsSupportedOs}
+{Contrast Security}, ``{System requirements for the Node.js agent}.''
+  \url{https://docs.contrastsecurity.com/en/node-js-system-requirements.html}.
+\newblock Online; accessed 21 May 2022.
+
+\end{thebibliography}
